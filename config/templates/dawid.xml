@@ -1,0 +1,19 @@
+<templateSet group="dawid">
+  <template name="log" value="private static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger($CLASS_NAME$.class);" description="slf4j logger" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="nt" value="&#9;@org.junit.Test&#10;&#9;public void should()&#10;&#9;{&#10;&#9;&#9;// given:&#10;&#9;&#9;&#10;&#10;&#9;&#9;// when:&#10;&#9;&#9;&#10;&#10;&#9;&#9;// then:&#10;&#9;&#9;&#10;&#9;}" description="New JUnit test" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ntspock" value="def &quot;Should &quot;() {&#10;    given:&#10;    &#10;    when:&#10;    &#10;    then:&#10;}" description="New Spock test" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
