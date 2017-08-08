@@ -16,7 +16,17 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="asn" value="org.springframework.util.Assert.notNull();" description="Assert not null with Spring asserts" toReformat="false" toShortenFQNames="true">
+  <template name="ann" value="org.springframework.util.Assert.notNull();" description="Assert not null with Spring asserts" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tojson" value="com.google.gson.Gson gson = new com.google.gson.GsonBuilder().serializeSpecialFloatingPointValues().create();&#10;gson.toJson(???)" description="Converts pojo to Json by Gson" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tostringreflection" value="@Override&#10;public String toString() {&#10;return org.apache.commons.lang.builder.ToStringBuilder.reflectionToString(this);&#10;}" description="toString by reflection from apache commons" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
