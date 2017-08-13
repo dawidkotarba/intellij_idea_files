@@ -36,7 +36,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="jackson to json" value="com.fasterxml.jackson.databind.ObjectMapper objectMapper = new ObjectMapper();&#10;objectMapper.writeValueAsString(???)" description="Converts pojo to Json by Jackson" toReformat="false" toShortenFQNames="true">
+  <template name="jackson to json" value=" new com.fasterxml.jackson.databind.ObjectMapper().writeValueAsString(???)" description="Converts pojo to Json by Jackson" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
