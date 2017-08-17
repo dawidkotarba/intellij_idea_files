@@ -41,4 +41,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="setup" value="@org.junit.Before&#10;public void setUp(){&#10;&#10;}" description="setup method for junit" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
