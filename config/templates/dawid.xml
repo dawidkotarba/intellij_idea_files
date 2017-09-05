@@ -5,7 +5,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="nt" value="&#9;@org.junit.Test&#10;&#9;public void should()&#10;&#9;{&#10;&#9;&#9;// given:&#10;&#9;&#9;&#10;&#10;&#9;&#9;// when:&#10;&#9;&#9;&#10;&#10;&#9;&#9;// then:&#10;&#9;&#9;&#10;&#9;}" description="New JUnit test" toReformat="true" toShortenFQNames="true">
+  <template name="nt" value="&#9;@org.junit.Test&#10;&#9;public void should()&#10;&#9;{&#10;&#9;&#9;// given:&#10;&#9;&#9;&#10;&#10;&#9;&#9;// when:&#10;&#9;&#9;&#10;&#10;&#9;&#9;// then:&#10;&#9;&#9;org.junit.Assert.fail();&#10;&#9;}" description="New JUnit test" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
